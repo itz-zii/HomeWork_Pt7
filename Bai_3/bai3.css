@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.head .secondary-products {
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+.products .text-first-heading {
+    margin-bottom: 2%;
+}
+
+.products .text-first-heading h2 {
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 40px;
+    font-weight: 900;
+    word-spacing: 2px;
+    letter-spacing: -2px;
+    margin-bottom: 1%;
+}
+
+.products .text-first-heading p {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+
+.products {
+    padding: 30px 0;
+}
+
+.products .content .item {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item h3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.item h3 p {
+    font-size: 10px;
+    margin: 4% 0;
+    font-weight: 600;
+    color: #ccc;
+    font-style: italic;
+}
+
+.item h3 p > span {
+    color: black;
+}
+
+.products .content {
+    margin: 0 15%;
+}
+
+.text-content {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.content .text-content {
+    font-size: 10px;
+    margin: 2% 0;
+    color: gray;
+}
+
+.button {
+    background-color: #253992;
+    padding: 10px;
+    width: 40%;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button li ,
+.button li > a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.button:hover {
+    background-color: #5667b1;
+    transition: 0.2s ease;
+}
+
